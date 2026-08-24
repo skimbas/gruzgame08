@@ -29,3 +29,4 @@ npm run verify:calldata   # prints tap/checkIn calldata + builder suffix
 Deploy `contracts/GruzGame08Onchain.sol` on **Base Mainnet** via Remix (see contract file). Then set `NEXT_PUBLIC_GRUZGAME08_CONTRACT_ADDRESS`.
 
 Builder attribution is appended in **transaction calldata** on the client (`withGruzGame08BuilderCodeDataSuffix`), not enforced in Solidity.
+3
